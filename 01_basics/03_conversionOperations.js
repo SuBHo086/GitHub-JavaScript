@@ -27,3 +27,23 @@ let randNum = 23 + 23
 let randStr = String(randNum)
 
 console.log(typeof randStr)
+
+
+//*********************** Operations *************************
+
+let val = 21
+let negVal = -val
+
+console.log(negVal)
+
+let str1 = "Sayan"
+let str2 = "Dhar"
+
+console.log(str1 + " " + str2)
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + "2")
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+
