@@ -32,3 +32,29 @@ const myFunc = function(){
 }
 
 console.log(obj)
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive) -- heap(non-primitive)
+
+let var1 = "Sayan Dhar"
+let var2 = var1;
+
+console.log(var1)
+console.log(var2)
+
+// shares the copy of the var val so changing one var does't affect another
+
+var2 = "Suman Dhar"
+console.log(var2)
+
+let myObj = {
+    name : "Sayan" ,
+    age : 21
+}
+
+let myObj2 = myObj;
+myObj2.age = 18 // it just shares the same heap address to both vars of the same object, so changing any one causes to change the real val
+
+console.log(myObj.age)
+console.log(myObj2.age)
