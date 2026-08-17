@@ -58,3 +58,7 @@ myObj2.age = 18 // it just shares the same heap address to both vars of the same
 
 console.log(myObj.age)
 console.log(myObj2.age)
+
+
+let randVar = "Sayan Dhar"
+console.log(`My name is ${randVar}`) // using backtick is called String Interpolation
