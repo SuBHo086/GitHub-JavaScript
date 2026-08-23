@@ -38,3 +38,16 @@ console.log(Object.values(tinderUser)); // returns all values
 console.log(Object.entries(tinderUser)); // returns all key value pairs as array
 
 console.log(tinderUser.hasOwnProperty("loggedIn")) // checks for the keys
+
+// different ways of accessing object values
+
+const tryObj = {
+    name: "Sayan Dhar" ,
+    age : 21
+}
+
+console.log(tryObj.name); // using . to access keys in object
+
+const {age:boyosh} = tryObj // now we stored tryObj.name in boyosh which is renamed using :
+
+console.log(boyosh)
