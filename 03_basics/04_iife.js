@@ -9,3 +9,5 @@
 ((name) => {
     console.log("this is test 2" , name)
 })("Sayan")
+
+// we can pass parameter to the last parenthesis
